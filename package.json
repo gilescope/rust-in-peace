@@ -2,7 +2,7 @@
 	"name": "rust-in-peace",
 	"displayName": "Rust In Peace Extension Pack",
 	"description": "An opiniated set of Visual Studio Code extensions for Rust",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"publisher": "gilescope",
 	"icon": "icon.jpg",
 	"galleryBanner": {
@@ -13,7 +13,10 @@
 		"vscode": "^1.41.0"
 	},
 	"keywords": [
-		"rust", "rustc", "cargo", "crate"
+		"rust",
+		"rustc",
+		"cargo",
+		"crate"
 	],
 	"categories": [
 		"Extension Packs"
@@ -25,12 +28,12 @@
 	"bugs": {
 		"url": "https://github.com/gilescope/rust-in-peace/issues"
 	},
-	"extensionPack":[
-        "matklad.rust-analyzer",
-        "vadimcn.vscode-lldb",
-        "hdevalke.rust-test-lens",
+	"extensionPack": [
+		"matklad.rust-analyzer",
+		"vadimcn.vscode-lldb",
+		"hdevalke.rust-test-lens",
 		"eamodio.gitlens",
-        "gilescope.arrowdebugging",
-        "sidp.strict-whitespace"
-    ]
+		"gilescope.arrowdebugging",
+		"sidp.strict-whitespace"
+	]
 }
