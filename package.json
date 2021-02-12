@@ -2,7 +2,7 @@
 	"name": "rust-in-peace",
 	"displayName": "Rust-in-peace Extension Pack",
 	"description": "An opiniated set of Visual Studio Code extensions for Rust",
-	"version": "0.2.5",
+	"version": "0.2.6",
 	"publisher": "gilescope",
 	"icon": "icon.jpg",
 	"galleryBanner": {
@@ -37,7 +37,8 @@
 		"serayuzgur.crates",
 		"eamodio.gitlens",
 		"gilescope.arrowdebugging",
-		"sidp.strict-whitespace"
+		"sidp.strict-whitespace",
+		"usernamehw.errorlens"
 	],
 	"dependencies": {
 		"vsce": "^1.73.0"
